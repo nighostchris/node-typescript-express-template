@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "types": [
+      "node",
+      "jest"
+    ],
+    "rootDir": ".",
+    "sourceMap": true,
+    "target": "ES2022",
+    "module": "NodeNext",
+    "outDir": "./built/",
+    "alwaysStrict": true,
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "NodeNext",
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "exclude": [
+    "built/**/*",
+    "node_modules/**/*"
+  ]
+}
