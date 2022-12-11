@@ -17,6 +17,8 @@ Add normal logic code with file extension `.ts` inside `/src` directory.
 
 Add test cases for the whole project inside `/tests` directory with file extension `.test.ts`
 
+Create your environment variable file `.env`
+
 ### Development
 
 ```bash
